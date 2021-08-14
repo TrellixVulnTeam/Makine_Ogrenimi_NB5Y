@@ -1,0 +1,113 @@
+-------------------------------------------------------------------------------------------------------------------
+Numpy Package
+-------------------------------------------------------------------------------------------------------------------
+
+np.mean(liste_adi)                                                                        -->            Ortalama değer
+np.median(liste_adi)                                                                      -->            Siralamadan sonra Orta nokta değeri
+np.std(liste_adi)                                                                         -->            Standart sapma, değerlerin ne kadar yayıldığını açıklayan bir sayıdır.    Dusuk Std ve Yuksek Std vardir
+np.var(liste_adi)                                                                         -->            Varyans Varyans, değerlerin ne kadar yayılmış olduğunu gösteren başka bir sayıdır.Aslında varyansın karekökünü alırsanız standart sapmayı elde edersiniz!Ya da tam tersi, standart sapmayı kendisiyle çarparsanız varyansı elde edersiniz!
+np.percentile(liste_adi, istedigimiz yuzdelik sayi)                                       -->            Yüzdelikleri bulmak için NumPy yöntemini kullanın (girdigimiz sayi * yuzdesini almak istedigimiz sayi / 100
+np.random.uniform(ortalama deger, standard sapma degeri , rasgele uretilecek miktar)      -->            0 ile 5 arasında 250 rastgele kayan nokta içeren bir dizi oluşturun:
+np.poly1d(np.polyfit(x, y, 3))                                                            -->            NumPy, bir polinom modeli yapmamızı sağlayan bir metoda sahiptir:
+np.linspace(en az (x) degeri, enyuksek (x) degeri, en yuksek (y) degeri)                  -->            satırın nasıl görüneceğini belirtin, ilk pozisyondan(degerden) başlayıp sonuncu. pozisyonda(degerde) bitirelim: ve en yuksek y pozisyonu(degerini) girelim
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+Scipy Package
+--------------------------------------------------------------------------------------------------------------------
+
+stats.mode(liste_adi)                                               -->           En yaygın değer (listede en fazla bulunan Not: yuksek degil)
+stats.linregress( liste_adi(x) , liste_adi(y) )                     -->           Doğrusal regresyon, veri noktaları arasındaki ilişkiyi, tüm bunların arasından düz bir çizgi çizmek için kullanır. Ayrica Bu çizgi gelecekteki değerleri tahmin etmek için kullanılabilir.
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+Matplotlib Package  -- matplotlib.pyplot as plt
+--------------------------------------------------------------------------------------------------------------------
+
+plt.hist(degisken toplam sonucu gelen liste, cubuk sayisi)          -->           Listeden gelen veriler ve 5 çubuklu bir histogram
+plt.scatter(x veri-liste , y veri-liste)                            -->           biri x ekseninin değerleri için diğeri y ekseninin değerleri kullanilir scatter(iki veriyi noktalarla gostermemizi saglayan diagramdir)
+plt.show()                                                          -->           Ekranda (gostermek) icin
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+Sklearn Package --  from sklearn.metrics import r2_score - from sklearn import linear_model - from sklearn.preprocessing import StandardScaler
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+r2_score(y liste degeri, x liste degeri)                                                        --> Verilerim bir polinom regresyonuna ne kadar uyuyor? bunu test etmek icin kullaniriz eger 0 gelirse polinom regresyonuna uymuyordur ve kotu  bir deger cikmistir eger 1 ise veya yakinsa polinom regresyonuna uyuyordur ve sonuclar iyidir. Iyi cikarsa x ve y arasinda cok iyi bir ilisinin oldugu ve gelecek tahminlerde  polinom regresyonu kullanabilecegimizi gostermektedir
+regr = linear_model.LinearRegression()                                                          --> Sklearn modülünden, LinearRegression() yöntemi doğrusal bir regresyon nesnesi oluşturmak için kullanacağız .
+regr.fit(X, y)                                                                                  --> Bu nesnenin, fit() bağımsız ve bağımlı değerleri parametre olarak alan ve regresyon nesnesini ilişkiyi tanımlayan verilerle dolduran bir yöntemi vardır :
+regr.predict(bagimsiz degerler tahmin birinci deger, bagimli degerler tahmin ikinci deger)      --> Artık bir nesnenin ozellik 1 ve ozellik 2 ogelerine dayalı olarak (hesaplamak istedigimiz nesnenin) değerlerini tahmin etmeye hazır bir regresyon nesnemiz var:
+print(regr.coef_)                                                                               --> Katsayı, bilinmeyen bir değişkenle olan ilişkiyi tanımlayan bir faktördür. Örnek: eğer xbir değişken ise, o 2xzaman xiki keredir. xbilinmeyen değişken, sayı 2ise katsayıdır. Regresyon nesnesinin katsayı değerlerini gosterir
+scale = StandardScaler()                                                                        --> sklearn.preprocessing paketinde bulunan StandardScaler ice aktariyoruz ve bir degiskene yani scale(olcu) adli bir tanimliyoruz Anlami ise standart ölçekleyici demektir
+scaledX = scale.fit_transform(X bagimsiz liste degeri)                                          --> X olcekleyici adli degiskenimize Ingilizce -> scale.fit_transform(X variable or List)  - Turkce -> ölçekli.uyum_dönüşümü(X degeri veya liste) ekliyoruz burada kisacasi !!Ağırlık ve Hacim sütunlarındaki tüm değerleri ölçeklendirebiliyoruz!!
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+Pandas Package
+-------------------------------------------------------------------------------------------------------------------
+
+
+pandas.read_csv("okunacak olan csv dosya adi")                                                  --> Pandas modülü, csv dosyalarını okumamıza ve bir DataFrame nesnesi döndürmemize izin verir.
+X = df[['bagimsiz deger 1', 'bagimsiz deger 2']]                                                --> bağımsız değerlerin bir listesini yapın ve bu degerleri (X) adi verilen bir degiskene koyun.
+y = df['bagimli deger']                                                                         --> Bağımlı değerleri (y) adı verilen bir değişkene koyun.
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+
+
+Doğrusal Regresyonun bazı önemli anahtar değerlerini döndüren bir yöntem yürütün:
+--------------------------------------------------------------------------------
+
+slope
+intercept       --              ?????
+r               --              Korelasyon katsayısı, bağımsız değişkenler arasındaki ilişkinin yönü ve büyüklüğünü belirten katsayıdır. Bu katsayı, (-1) ile (+1) arasında bir değer alır. Pozitif değerler direkt yönlü doğrusal ilişkiyi; negatif değerler ise ters yönlü bir doğrusal ilişkiyi belirtir. Korelasyon katsayısı 0 ise söz konusu değişkenler arasında doğrusal bir ilişki yoktur.
+p               --              ?????
+std_err         --              ?????
+
+
+
+slope, intercept, r, p, std_err
+
+
+
+
+
+
+
+

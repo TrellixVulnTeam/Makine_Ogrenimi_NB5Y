@@ -1,0 +1,157 @@
+
+Makine öğrenmesi
+----------------
+
+Makine Öğrenimi, bilgisayarın verileri ve istatistikleri inceleyerek öğrenmesini sağlar.
+
+Makine Öğrenimi, yapay zeka (AI) yönünde bir adımdır.
+
+Makine Öğrenimi, verileri analiz eden ve sonucu tahmin etmeyi öğrenen bir programdır.
+
+
+
+
+
+Nereden Başlamalı?
+-----------------
+
+Bu derste matematiğe geri döneceğiz ve istatistikleri inceleyeceğiz ve veri kümelerine dayalı önemli sayıların nasıl hesaplanacağı.
+
+İhtiyacımız olan cevapları almak için çeşitli Python modüllerini nasıl kullanacağımızı da öğreneceğiz.
+
+Ve öğrendiklerimize dayanarak sonucu tahmin edebilen fonksiyonları nasıl yapacağımızı öğreneceğiz.
+
+
+
+
+
+Veri Kümesi
+------------
+
+Bir bilgisayarın zihninde, bir veri seti herhangi bir veri topluluğudur. Bir diziden eksiksiz bir veritabanına kadar her şey olabilir.
+
+
+***** Bir dizi örneği: ******
+
+[99,86,87,88,111,86,103,87,94,78,77,85,86]
+
+
+
+
+
+
+Bir veritabanı örneği:
+---------------------
+
+
+karname 	Renk	   Yaş	    Hız	    Otomatik Geçiş
+
+BMW	        kırmızı	    5	    99            Y
+
+Volvo	    siyah	    7	    86	          Y
+
+VW	        gri	        8	    87	          n
+
+VW	        Beyaz	    7	    88	          Y
+
+Ford	    Beyaz	    2	    111        	  Y
+
+VW	        Beyaz	    17	    86	          Y
+
+tesla	    kırmızı	    2	    103	          Y
+
+BMW	        siyah	    9	    87	          Y
+
+Volvo	    gri     	4	    94	          n
+
+Ford	    Beyaz	    11	    78         	  n
+
+toyota	    gri	        12	    77	          n
+
+VW	        Beyaz	    9	    85      	  n
+
+toyota	    Mavi	    6	    86	          Y
+
+
+
+
+Diziye bakarak, ortalama değerin muhtemelen 80 veya 90 civarında olduğunu tahmin edebiliriz ve ayrıca en yüksek
+değeri ve en düşük değeri belirleyebiliriz, ama başka ne yapabiliriz?
+
+Ve veri tabanına bakarak en popüler rengin beyaz olduğunu ve en eski arabanın 17 yaşında olduğunu görebiliriz,
+peki ya bir arabanın AutoPass'i olup olmadığını sadece diğer değerlere bakarak tahmin edebilirsek?
+
+
+Makine Öğrenimi bunun için var! Verileri analiz etmek ve sonucu tahmin etmek!
+
+
+***
+Makine Öğreniminde çok büyük veri kümeleriyle çalışmak yaygındır. Bu öğreticide, makine öğreniminin farklı
+kavramlarını anlamayı mümkün olduğunca kolaylaştırmaya çalışacağız ve anlaşılması kolay küçük veri kümeleriyle
+çalışacağız.
+***
+
+
+
+
+Veri tipleri
+------------
+
+
+Verileri analiz etmek için, ne tür verilerle uğraştığımızı bilmek önemlidir.
+
+
+Veri türlerini üç ana kategoriye ayırabiliriz:
+--------------------------------------------
+
+Sayısal
+Kategorik
+Sırali
+
+
+Sayısal veriler sayılardır ve iki sayısal kategoriye ayrılabilir:
+-----------------------------------------------------------------
+
+Ayrık Veri
+----------
+
+- tamsayılarla sınırlı sayılar. Örnek: Geçen arabaların sayısı.
+
+
+Sürekli Veri
+------------
+
+- sonsuz değere sahip sayılar. Örnek: Bir öğenin fiyatı veya bir öğenin boyutu
+
+
+
+Kategorik veriler, birbirine karşı ölçülemeyen değerlerdir. Örnek: bir renk değeri veya herhangi bir evet/hayır değeri.
+---------
+
+Sıralı veriler, kategorik veriler gibidir, ancak birbirlerine karşı ölçülebilir. Örnek: A'nın B'den daha iyi olduğu okul notları vb.
+------
+
+Veri kaynağınızın veri türünü bilerek, bunları analiz ederken hangi tekniği kullanacağınızı bilebileceksiniz.
+
+Sonraki bölümlerde istatistikler ve verileri analiz etme hakkında daha fazla bilgi edineceksiniz.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
