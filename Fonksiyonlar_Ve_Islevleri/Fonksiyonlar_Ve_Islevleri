@@ -35,7 +35,7 @@ stats.linregress( liste_adi(x) , liste_adi(y) )                     -->         
 
 
 --------------------------------------------------------------------------------------------------------------------
-Matplotlib Package  -- matplotlib.pyplot as plt
+Matplotlib Package  -- matplotlib.pyplot as plt -- import matplotlib.image as pltimg
 --------------------------------------------------------------------------------------------------------------------
 
 plt.hist(degisken toplam sonucu gelen liste, cubuk sayisi)          -->           Listeden gelen veriler ve 5 çubuklu bir histogram
@@ -47,7 +47,7 @@ plt.show()                                                          -->         
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
-Sklearn Package --  from sklearn.metrics import r2_score - from sklearn import linear_model - from sklearn.preprocessing import StandardScaler
+Sklearn Package --  from sklearn.metrics import r2_score - from sklearn import linear_model - from sklearn.preprocessing import StandardScaler -- from sklearn import tree --  from sklearn.tree import DecisionTreeClassifier
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -88,12 +88,29 @@ y = df['bagimli deger']                                                         
 
 
 -------------------------------------------------------------------------------------------------------------------
+pydotplus package
+-------------------------------------------------------------------------------------------------------------------
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------
 Doğrusal Regresyonun bazı önemli anahtar değerlerini döndüren bir yöntem yürütün:
---------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 
 slope
 intercept       --              ?????
