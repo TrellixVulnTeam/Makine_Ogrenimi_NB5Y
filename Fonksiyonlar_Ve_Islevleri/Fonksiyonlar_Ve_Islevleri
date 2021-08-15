@@ -10,6 +10,7 @@ np.percentile(liste_adi, istedigimiz yuzdelik sayi)                             
 np.random.uniform(ortalama deger, standard sapma degeri , rasgele uretilecek miktar)      -->            0 ile 5 arasında 250 rastgele kayan nokta içeren bir dizi oluşturun:
 np.poly1d(np.polyfit(x, y, 3))                                                            -->            NumPy, bir polinom modeli yapmamızı sağlayan bir metoda sahiptir:
 np.linspace(en az (x) degeri, enyuksek (x) degeri, en yuksek (y) degeri)                  -->            satırın nasıl görüneceğini belirtin, ilk pozisyondan(degerden) başlayıp sonuncu. pozisyonda(degerde) bitirelim: ve en yuksek y pozisyonu(degerini) girelim
+np.random.seed(... veri veya deger)                                                       -->            ???????????????????????
 
 
 

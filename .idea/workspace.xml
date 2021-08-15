@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5098cb49-e644-4752-bec1-6e48d6e75e2d" name="Default Changelist" comment="" />
+    <list default="true" id="5098cb49-e644-4752-bec1-6e48d6e75e2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Bolum11/img_traintest1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bolum11/img_traintest2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bolum11/img_traintest3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bolum11/img_traintest3_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bolum11/img_traintest_predict.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bolum12/DecisionTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bolum11/TrainTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Bolum11/TrainTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fonksiyonlar_Ve_Islevleri/Fonksiyonlar_Ve_Islevleri" beforeDir="false" afterPath="$PROJECT_DIR$/Fonksiyonlar_Ve_Islevleri/Fonksiyonlar_Ve_Islevleri" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,18 +36,22 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1wYSj0uKCrSmuQO1bK2aLwXKOSb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.Scale">
+  <component name="RunManager" selected="Python.TrainTest">
     <configuration name="MultipleRegression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Makine Ogrenimi" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -101,8 +115,30 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TrainTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Makine Ogrenimi" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Bolum11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Bolum11/TrainTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TrainTest" />
         <item itemvalue="Python.Scale" />
         <item itemvalue="Python.MultipleRegression" />
         <item itemvalue="Python.PolynomialRegression" />
@@ -130,5 +166,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
